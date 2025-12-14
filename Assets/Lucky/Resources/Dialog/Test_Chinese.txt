@@ -1,0 +1,2 @@
+test_key = 测试键值234567<float>89qw\nert yuio</float>pas<link="123">dfghjklz</link>x <delay=0.5/>cvb<speed=5/>n<float>mQWERTYUI</float>OPAS DFGHJKLZXC VBNM测 试键值
+test_key2 = 测试键值234567<float>89qw\nertsdf yuio</float>pas<link="123">dfghjklz</link>xn<float>mQWERTYUI</float>OPAS DFGHJKLZXC VBNM测 试键值
