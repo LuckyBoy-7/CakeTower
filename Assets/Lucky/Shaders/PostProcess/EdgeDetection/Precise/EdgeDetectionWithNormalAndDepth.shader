@@ -65,7 +65,8 @@ Shader "Lucky/PostProcess/EdgeDetectionWithNormalAndDepth"
             // difference in depth
             float diffDepth = abs(centerDepth - sampleDepth) * _Sensitivity.y;
             // scale the required threshold by the distance
-            int isSameDepth = diffDepth < 0.1 * centerDepth;
+            // int isSameDepth = diffDepth < 0.1 * centerDepth;
+            int isSameDepth = diffDepth < 0.1;
 
             // return:
             // 1 - if normals and depth are similar enough

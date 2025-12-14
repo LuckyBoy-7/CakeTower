@@ -361,5 +361,9 @@ namespace Lucky.Audio
 
         #endregion
 
+        public object Contains(string soundID)
+        {
+            return sfxClips.Get(soundID).Count > 0 || loopClips.Get(soundID).Count > 0;
+        }
     }
 }

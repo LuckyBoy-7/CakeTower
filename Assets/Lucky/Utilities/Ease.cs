@@ -4,9 +4,6 @@ using UnityEngine;
 
 namespace Lucky.Utilities
 {
-    /// <summary>
-    /// 把ease封装了一下，后续转化更方便
-    /// </summary>
     public class Ease
     {
         private float duration;

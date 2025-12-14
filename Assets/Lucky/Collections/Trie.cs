@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Lucky.Collections
 {
@@ -22,7 +23,7 @@ namespace Lucky.Collections
                 char c = ParseChar(ch);
                 if (c == delimiter)
                     break;
-                cur = children[c];
+                cur = cur.children[c];
             }
 
             cur.values.Add(value);
@@ -34,7 +35,7 @@ namespace Lucky.Collections
             foreach (char ch in pattern)
             {
                 char c = ParseChar(ch);
-                cur = children[c];
+                cur = cur.children[c];
             }
 
             return cur.values;
